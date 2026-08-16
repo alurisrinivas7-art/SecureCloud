@@ -51,3 +51,10 @@ jobs:
         run: bandit -r app
       - name: Build Docker image
         run: docker build -t securecloud:ci .
+      - name: Scan Docker image with Trivy
+        uses: aquasecurity/trivy-action@v0.36.0
+        with:
+          image-ref: securecloud:ci
+          format: table
+          exit-code: '0'
+          severity: 'HIGH,CRITICAL'
