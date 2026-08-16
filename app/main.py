@@ -1,4 +1,11 @@
 from fastapi import FastAPI
+import psycopg
+import os
+from dotenv import load_dotenv
+
+load_dotenv()
+
+DATABASE_URL = os.getenv("DATABASE_URL")
 
 app = FastAPI(
     title="SecureCloud API",
