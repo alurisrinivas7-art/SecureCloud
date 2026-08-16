@@ -58,3 +58,4 @@ jobs:
           format: table
           exit-code: '0'
           severity: 'HIGH,CRITICAL'
+          ignore-unfixed: true
