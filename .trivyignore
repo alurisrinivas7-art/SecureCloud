@@ -1,0 +1,7 @@
+# Temporary exception: CVE-2026-53615
+# Affected Debian util-linux packages are inherited from the current
+# python:3.14-slim (Debian 13) base image.
+# The fixed version is not currently available in the configured
+# Debian repositories. Reassess when the upstream base image updates.
+
+CVE-2026-53615

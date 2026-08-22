@@ -5,3 +5,12 @@ __pycache__/
 .env
 base-trivy.json
 trivy-result.json
+
+trivy-debug.json
+
+
+# Terraform local files
+.terraform/
+*.tfstate
+*.tfstate.*
+
