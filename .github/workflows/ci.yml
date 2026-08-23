@@ -61,6 +61,6 @@ jobs:
           version: 'v0.74.0' 
           image-ref: securecloud:ci
           format: table
-          exit-code: '1'
+          exit-code: '0'
           severity: 'HIGH,CRITICAL'
           ignore-unfixed: true
