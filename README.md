@@ -1,4 +1,4 @@
-# SecureCloud
+﻿# SecureCloud
 
 SecureCloud is a practical DevSecOps portfolio project demonstrating how to build, test, containerize, secure, and deploy a Python API to Microsoft Azure.
 
@@ -43,6 +43,9 @@ GitHub Actions CI
 
 Terraform is used for Infrastructure as Code for the Azure environment.
 
+## Architecture
+
+![SecureCloud Architecture](architecture.png)
 ## Technology Stack
 
 ### Application
